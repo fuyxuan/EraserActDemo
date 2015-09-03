@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="銘謝惠顧"
+            android:gravity="center"
+            android:textSize="40dp" />
+
+        <com.example.eraseractdemo.EraseView
+            android:id="@+id/eraseView1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+    </RelativeLayout>
+
+</LinearLayout>
